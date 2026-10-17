@@ -209,14 +209,6 @@
   .plan .fine { margin-top: 24px; font-size: 14px; color: var(--ink-soft); }
   .plan.pro .fine { color: rgba(255,255,255,0.75); }
 
-  /* About */
-  .about { display: grid; grid-template-columns: 220px 1fr; gap: 48px; align-items: center; background: var(--lilac-soft); border-radius: 32px; padding: 48px 56px; }
-  .about img { width: 100%; max-width: 220px; }
-  .about h2 { font-size: clamp(28px, 3.2vw, 40px); letter-spacing: -0.025em; line-height: 1.1; margin-top: 10px; }
-  .about p { color: var(--ink-soft); font-size: 18px; margin-top: 14px; max-width: 640px; }
-  .about .facts { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 22px; font-size: 15px; }
-  .about .facts b { color: var(--ink); font-weight: 600; }
-
   /* Final CTA */
   .final { background: var(--violet); color: #fff; border-radius: 36px; margin: 0 24px; overflow: hidden; }
   .final .inner { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 32px; align-items: center; padding: 72px 56px 0; }
@@ -242,8 +234,6 @@
     .steps .step:last-child { grid-column: span 2; }
     .steps .step:last-child .shot { width: 40%; }
     .langs .wrap { grid-template-columns: 1fr; gap: 32px; }
-    .about { grid-template-columns: 1fr; padding: 40px 32px; gap: 24px; }
-    .about img { max-width: 160px; }
     .final .inner { grid-template-columns: 1fr; padding: 56px 32px 0; }
     .final .cta-row { padding-bottom: 8px; }
     .final .mascot { max-width: 220px; }
@@ -261,7 +251,6 @@
     section.block { padding: 80px 0; }
     .steps, .features, .trust, .plans { grid-template-columns: 1fr; }
     .plan { padding: 28px; }
-    .about { padding: 32px 22px; }
     .steps .step:last-child { grid-column: auto; }
     .steps .step:last-child .shot { width: 78%; }
     .gallery { padding-left: 16px; padding-right: 16px; }
@@ -480,24 +469,6 @@
         <div>
           <h3>Delete anytime</h3>
           <p>Remove a single course from your library or your whole account directly in the app.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="block" style="padding-top: 0;" id="about">
-    <div class="wrap">
-      <div class="about">
-        <img src="img/mascot-hi.png" alt="" aria-hidden="true" loading="lazy">
-        <div>
-          <div class="kicker">About Notix</div>
-          <h2>An independent study app, built in Istanbul.</h2>
-          <p>Notix is designed and built by Ömer Kurtdaş. The goal is simple: make it easier for anyone to learn from the material they already have, in their own language, and to actually finish what they start.</p>
-          <div class="facts">
-            <span><b>Launched</b> May 2026</span>
-            <span><b>Platform</b> iPhone &amp; iPad</span>
-            <span><b>Contact</b> <a href="mailto:hello@getnotix.com">hello@getnotix.com</a></span>
-          </div>
         </div>
       </div>
     </div>
