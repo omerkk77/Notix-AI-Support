@@ -209,6 +209,14 @@
   .plan .fine { margin-top: 24px; font-size: 14px; color: var(--ink-soft); }
   .plan.pro .fine { color: rgba(255,255,255,0.75); }
 
+  /* Founder */
+  .founder { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 32px; background: var(--lilac-soft); border-radius: 28px; padding: 32px 40px; }
+  .founder .who { display: flex; align-items: center; gap: 18px; }
+  .founder .avatar { flex: 0 0 64px; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; background: var(--cream); display: grid; place-items: center; font-weight: 700; font-size: 22px; color: var(--violet); }
+  .founder h2 { font-size: 22px; letter-spacing: -0.015em; line-height: 1.25; }
+  .founder p { color: var(--ink-soft); font-size: 16px; margin-top: 2px; }
+  .founder a.more { font-weight: 600; color: var(--violet); text-decoration: none; white-space: nowrap; }
+
   /* Final CTA */
   .final { background: var(--violet); color: #fff; border-radius: 36px; margin: 0 24px; overflow: hidden; }
   .final .inner { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 32px; align-items: center; padding: 72px 56px 0; }
@@ -255,6 +263,7 @@
     .steps .step:last-child .shot { width: 78%; }
     .gallery { padding-left: 16px; padding-right: 16px; }
     .gallery img { width: 210px; }
+    .founder { padding: 24px 22px; }
     .final { margin: 0 12px; border-radius: 28px; }
     .final .inner { padding: 48px 24px 0; }
     .sources .sep { display: none; }
@@ -272,6 +281,7 @@
       <a href="#how">How it works</a>
       <a href="#features">Features</a>
       <a href="#pricing">Pricing</a>
+      <a href="about.html">About</a>
       <a href="support.html">Support</a>
       <a class="nav-cta" href="https://apps.apple.com/app/id6759614614">Get the app</a>
     </nav>
@@ -474,6 +484,21 @@
     </div>
   </section>
 
+  <section class="block" style="padding-top: 0;" id="team">
+    <div class="wrap">
+      <div class="founder">
+        <div class="who">
+          <div class="avatar" aria-hidden="true">ÖK</div>
+          <div>
+            <h2>Built by Ömer Kurtdaş, founder of Notix AI</h2>
+            <p>An independent company in Istanbul. Founded 2026.</p>
+          </div>
+        </div>
+        <a class="more" href="about.html">Founder &amp; company details →</a>
+      </div>
+    </div>
+  </section>
+
   <section class="final">
     <div class="inner">
       <div>
@@ -492,6 +517,7 @@
   <div class="wrap">
     <a class="brand" href="#top"><img src="apple-touch-icon.png" alt="">Notix</a>
     <nav>
+      <a href="about.html">About &amp; team</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="https://docs.google.com/document/d/17YaaF1jPYqCSqG1oXbTIMiQ21YKjS9oea1ovdRZoi1E/preview">Terms</a>
